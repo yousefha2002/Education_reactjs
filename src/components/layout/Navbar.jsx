@@ -20,7 +20,7 @@ export default function Navbar() {
                 <MenuItems items={menuItems} className="hidden md:flex items-center gap-x-8"/>
                 {/** buttons */}
                 <div className='hidden md:flex gap-x-2'>
-                    <PrimaryButton content={"إنشاء حساب"} link={'/register'}/>
+                    <PrimaryButton content={"إنشاء حساب"} link={'/signup'}/>
                     <SecondaryButton content={"تسجيل دخول"} link={'/login'}/>
                 </div>
                 {/** Hamburger menu */}
@@ -36,7 +36,7 @@ export default function Navbar() {
                     <div className='md-hidden mt-6'>
                         <MenuItems items={menuItems} className="flex flex-col gap-y-4" />
                         <div className="flex flex-col gap-y-2 mt-4">
-                            <PrimaryButton content={"إنشاء حساب"} link={'/register'}/>
+                            <PrimaryButton content={"إنشاء حساب"} link={'/signup'}/>
                             <SecondaryButton content={"تسجيل دخول"} link={'/login'}/>
                         </div>
                     </div>
