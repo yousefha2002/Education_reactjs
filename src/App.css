@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Tajawal, sans-serif !important;
+    direction: rtl;
+}
+
+/* tailwind styles*/
+.Container{
+    @apply container mx-auto xl:px-4 px-3
+}
+
+.Btn{
+    @apply rounded-[4px] text-[14px] px-3 py-1
+}
+.GridBoxes{
+    @apply grid md:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-10
+}
+/* fonts*/
+.HeadingFont{
+    @apply text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32] font-bold
+}
+.TitleFont{
+    @apply text-[18px] md:text-[20px] font-semibold;
+}
+.RegularFont{
+    @apply text-[16px] md:text-[18px] font-semibold; 
+}
+.paragraphFont{
+    @apply text-[14px] md:text-[16px] font-medium opacity-80
+}

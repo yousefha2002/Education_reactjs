@@ -1,0 +1,26 @@
+export default [
+    {
+        id:1,
+        name:"أحمد",
+        role:"المشرف",
+        image:"images/team.jpg"
+    },
+    {
+        id:2,
+        name:"أحمد",
+        role:"المشرف",
+        image:"images/team.jpg"
+    },
+    {
+        id:3,
+        name:"أحمد",
+        role:"المشرف",
+        image:"images/team.jpg"
+    },
+    {
+        id:4,
+        name:"أحمد",
+        role:"المشرف",
+        image:"images/team.jpg"
+    }
+]
